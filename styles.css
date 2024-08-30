@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+
+    background-color: rgb(201, 200, 200);
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    display: flex;
+    justify-content:center;
+
+}
+
+h1{
+    margin-top: 7%;
+    font-size: 29px;
+}
+
+.container {
+
+    max-width: 800px;
+    width: 100%;
+    margin: 50px 10px;
+
+}
+
+.section {
+
+    background-color: #ffff;
+    padding: 50px;
+    border-radius: 7px;
+    margin-bottom: 1px;
+    display: flex;
+
+}
+
+.subsection {
+
+    width: 50%;
+
+}
+
+.dot {
+
+    height: 15px;
+    width: 15px;
+    background-color: rgb(55, 190, 28);
+    border-radius: 50%;
+
+}
+
+.status {
+
+    display: flex;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 20px;
+    padding: 6px;
+    margin-top: 8%;
+    margin-right: 110px;
+
+}
+
+.formation{
+
+    text-decoration: underline;
+    color: rgb(54, 54, 54);
+}
+
+.p-status {
+    font-size: 15px;
+    margin: 0 10px;
+
+}
+
+.profile {
+
+    width: 235px;
+    height: 240px;
+    border-radius: 15px;
+    margin-top: 5%;
+
+}
+
+.p-desc {
+
+    font-size: 26px;
+    border-bottom: 1px solid rgb(176, 172, 172);
+    padding-bottom: 30px;
+    text-align:justify
+}
+.weight{
+
+    font-weight: 600;
+
+}
+
+.btn-black {
+    background-color: black;
+    color: #ffff;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.btn-black:hover {
+    background-color: #ffff;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-lined {
+
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: underline;
+    border: 2px solid black
+}
+
+.btn-lined:hover {
+
+    background-color: black;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.section-title {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+}
+
+.universidades {
+    text-decoration: underline;
+    font-weight: 800;
+    font-size: 85%;
+}
+h3
+    {
+        
+        font-weight: 800;
+        font-size: 90%;
+        color: black;
+        margin-top: 5%;
+
+    }
+
+
+.btn-years {
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(148, 147, 147, 0.671);
+    font-size: 17px;
+
+}
+
+.sticky-nav{
+    height: 200px;
+    width: 50px;
+    background-color: black;
+    position: sticky;
+    top: 60px;
+    left: -30px;
+    border-radius: 30px;
+    
+}
+li{
+    color: #ffff;
+    padding: 0;
+}
+ul{
+    text-decoration: none;
+    padding: 0;
+    list-style-type: none;
+
+        
+}
+
+.section-work{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between
+
+
+}
+
+.section-work svg{
+    margin-top: 5px;
+   }
+
+
+ul li svg{
+    margin-left: 25%;
+    height: 50px;
+    weight: 40px;
+   }
+
+
+.section-contact{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between
+
+}
+
+.section-contact svg{
+    margin-top: 5px;
+
+}
+
+h2{
+    margin-top: 0%;
+    height: 25px;
+    margin: 0%;
+}
+
+.field {
+    margin-bottom: 10px;
+    
+  }
+  
+  .field label {
+    display: flex;
+    font-size: 15px;
+    color: #000000;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+  .field input {
+    
+    display: flex;
+    min-width: 500px;
+    line-height: 3;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    display: flex;
+    padding: 6px 30px;
+    font-size: 15px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+  }
+
+.section-social{
+    display: flex;
+    justify-content: space-between;
+}
